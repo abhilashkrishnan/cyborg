@@ -6,6 +6,6 @@
 #define KERNEL_UNAME "Milano"
 #define KERNEL_VERSION_STRING "0.0.1"
 
-#define asm _asm_
-#define volatile _volatile_
+#define asm __asm__
+#define volatile __volatile__
 #endif
