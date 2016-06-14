@@ -7,8 +7,9 @@ int _kernel_main(struct multiboot *mboot, uint32_t mboot_mag, uintptr_t esp) {
 		mboot_ptr = mboot;
 	}
 	
-	char * video_mem = (char *) 0xb8000;
-	*video_mem = "SAXE OS";
-	
+	/*char * video_mem = (char *) 0xb8000;
+	*video_mem = "MILANO OS";
+	*/
+
 	return 0;
 }
