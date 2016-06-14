@@ -14,6 +14,6 @@ Toy Operating System written in C and x86 Assembly Language. It is only a bare b
 
 1. Implement Interrupt Service Routines.
 2. Implement Keyboard Driver.
-3. Implement a Basic Shell.
-4. Implement Memory Management - Basic Paging.
+3. Implement Memory Management - Basic Paging.
+4. Implement a Basic Shell.
 5. Implement Basic File System.
