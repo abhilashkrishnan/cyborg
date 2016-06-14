@@ -1,6 +1,8 @@
 # Cyborg OS (Code Name: Genesis)
 Toy Operating System written in C and x86 Assembly Language. It is only a bare bones Operating System at the moment with support for  multiboot through GNU GRUB bootloader. 
 
+![alt tag](https://raw.githubusercontent.com/abhilashkrishnan/cyborg/master/resources/cyborg.png)
+
 #Current Status
 
 1. Implemented the bootstrap Assembly Code with multiboot support.
