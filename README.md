@@ -1,5 +1,5 @@
 # Milano (Code Name: Genesis)
-Hobby Operating System written using C and x86 Assembly Language. It is only a bare bones Operating System at the moment with support for  multiboot through GNU GRUB bootloader. 
+Toy Operating System written in C and x86 Assembly Language. It is only a bare bones Operating System at the moment with support for  multiboot through GNU GRUB bootloader. 
 
 #Current Status
 
