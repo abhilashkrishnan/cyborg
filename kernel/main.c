@@ -36,7 +36,7 @@ int _kernel_main(struct multiboot *mboot, uint32_t mboot_mag, uintptr_t esp) {
 	}
 	
 	clear(BLACK);
-	puts(0,0, BRIGHT, BLACK, "Milano Genesis");	
+	puts(0,0, BRIGHT, BLACK, "Cyborg Genesis");	
 
 	return 0;
 }
