@@ -3,7 +3,8 @@
 
 enum color {
     BLACK = 0,
-    BRIGHT = 7
+    BRIGHT = 7,
+    LIGHTCYAN = 11
 };
 
 enum size {
@@ -36,7 +37,6 @@ int _kernel_main(struct multiboot *mboot, uint32_t mboot_mag, uintptr_t esp) {
 	}
 	
 	clear(BLACK);
-	puts(0,0, BRIGHT, BLACK, "Cyborg Genesis");	
-
+	puts(30,10, LIGHTCYAN, BLACK, "CYBORG Genesis");	       puts(25,15, BRIGHT, BLACK, "CYBORG OS is running on QEMU");
 	return 0;
 }
