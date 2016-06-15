@@ -12,6 +12,16 @@ Toy Operating System written in C and x86 Assembly Language. It is only a bare b
 5. Implemented Linker Script.
 6. Print and Clear video memory.
 
+#Screenshots
+
+GNU GRUB Multiboot Loader
+
+![Cyborg Genesis](https://raw.githubusercontent.com/abhilashkrishnan/cyborg/master/grub.png)
+
+CYBORG OS running on QEMU
+
+![Cyborg Genesis](https://raw.githubusercontent.com/abhilashkrishnan/cyborg/master/os.png)
+
 #Immediate Goals
 
 1. Implement Interrupt Service Routines.
@@ -19,3 +29,4 @@ Toy Operating System written in C and x86 Assembly Language. It is only a bare b
 3. Implement Memory Management - Basic Paging.
 4. Implement a Basic Shell.
 5. Implement Basic File System.
+
