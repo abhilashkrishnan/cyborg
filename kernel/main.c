@@ -37,6 +37,7 @@ int _kernel_main(struct multiboot *mboot, uint32_t mboot_mag, uintptr_t esp) {
 	}
 	
 	clear(BLACK);
-	puts(30,10, LIGHTCYAN, BLACK, "CYBORG Genesis");	       puts(25,15, BRIGHT, BLACK, "CYBORG OS is running on QEMU");
+	puts(30,10, LIGHTCYAN, BLACK, "CYBORG Genesis");
+	puts(25,15, BRIGHT, BLACK, "CYBORG OS is running on QEMU");
 	return 0;
 }
