@@ -1,7 +1,9 @@
 # CYBORG OS (Code Name: Genesis)
 Toy Operating System written in C and x86 Assembly Language. It is only a bare bones Operating System at the moment with support for  multiboot through GNU GRUB bootloader. 
 
-#Current Status
+![Cyborg Genesis] (https://raw.githubusercontent.com/abhilashkrishnan/cyborg/master/cyborg.png)
+
+## Current Status
 
 1. Implemented the bootstrap Assembly Code with multiboot support.
 2. Bootstrap assembly code will invoke the kernel C function to launch the bare bones operating system.
@@ -10,7 +12,7 @@ Toy Operating System written in C and x86 Assembly Language. It is only a bare b
 5. Implemented Linker Script.
 6. Print and Clear video memory.
 
-#Screenshots
+## Screenshots
 
 GNU GRUB Multiboot Loader
 
@@ -20,7 +22,7 @@ CYBORG OS running on QEMU
 
 ![Cyborg Genesis](https://raw.githubusercontent.com/abhilashkrishnan/cyborg/master/os.png)
 
-#Immediate Goals
+## Immediate Goals
 
 1. Implement Interrupt Service Routines.
 2. Implement Keyboard Driver.
